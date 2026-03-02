@@ -1,0 +1,5 @@
+{
+  "name": "Kairo E-Certificate Generator",
+  "description": "Generate professional e-certificates from Excel data with automated naming and bulk export.",
+  "requestFramePermissions": []
+}
