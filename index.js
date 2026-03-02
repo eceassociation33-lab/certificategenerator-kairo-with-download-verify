@@ -35,7 +35,7 @@ app.post('/upload', upload.single('file'), async (req, res) => {
     const response = await drive.files.create({
       requestBody: {
         name: req.file.originalname,
-        parents: ['PASTE_YOUR_FOLDER_ID_HERE'], // Optional: Folder ID
+        parents: ['https://drive.google.com/drive/folders/19-WFzCWeIasNb9Hp6PMIHSiRDHMtrUv1?usp=sharing'], // Optional: Folder ID
       },
       media: {
         mimeType: req.file.mimetype,
